@@ -1,0 +1,47 @@
+
+.col-centered{
+  margin: 0 auto;
+  float: none;
+}
+.form-inline{
+  padding-top: 20px;
+}
+.form-inline .form-control {
+    width: 350px;
+    vertical-align: middle;
+}
+.photo {
+  padding-top: 20px;
+  width: 100px;
+  height: 100px;
+  margin: 21px;
+  float: left;
+  overflow: hidden;
+}
+.photo img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 150%;
+  max-height: 150%;
+}
+.ngdialog-content{
+    width : 1200px;
+}
+.ngdialog.ngdialog-theme-default .ngdialog-content {
+  @media (max-width: @screen-sm-min) {
+    width: 100%;
+    border-radius: 0;
+  }
+  @media (min-width: @screen-sm-min) {
+    width: 90%;
+  }
+  @media (min-width: @screen-md-min) {
+    width: @container-md - 100px;
+  }
+  @media (min-width: @screen-lg-min) {
+    width: @container-lg - 200px;
+  }
+}
+#title{
+        padding-left: 10px;
+    }
